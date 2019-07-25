@@ -1,8 +1,20 @@
 body {
-    background-color: darkgrey;
+    background-color: rgb(241, 234, 234);
 }
 
 #profile_pic {
     border: 3px solid black;
     border-radius: 100%;
+    padding: 5px;
+    margin: 5px;
+}
+
+header {
+    font-size: 40px;
+    text-align: center;
+    background-color: rgb(135, 221, 236);
+}
+
+#title {
+    padding: 20px;
 }
