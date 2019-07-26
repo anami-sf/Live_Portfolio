@@ -1,20 +1,55 @@
 body {
-    background-color: rgb(241, 234, 234);
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(214, 210, 210);
+    text-align: center;
 }
 
 #profile_pic {
     border: 3px solid black;
     border-radius: 100%;
-    padding: 5px;
+    padding: 6px;
     margin: 5px;
+    background-color: white;
 }
 
 header {
     font-size: 40px;
     text-align: center;
-    background-color: rgb(135, 221, 236);
+    background-color: rgb(241, 234, 234);
+    /* background-color: rgb(47, 168, 224); */
 }
 
 #title {
     padding: 20px;
+}
+
+#contact {
+    float: left;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 218px;
+    justify-content: center;
+    background-color: black;
+    font-size: 15px;
+}
+
+a {
+    padding: 3px;
+    margin: 10px;
+    border-radius: 8px;
+    color: darkblue;
+    vertical-align: middle;
+    background-color: white;
+    height: 25px;
+}
+
+#github {
+    padding-top: 5px;
+    height: 20px;
+}
+
+#linkedin_logo {
+    height: 20px;
+    padding-top: 3px;
 }
